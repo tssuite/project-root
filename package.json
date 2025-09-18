@@ -1,9 +1,9 @@
 {
-  "name": "@tssuite/template-project",
+  "name": "@tssuite/project-root",
   "version": "0.0.17",
-  "description": "tssuite template-project description",
-  "homepage": "https://github.com/tssuite/template-project",
-  "bugs": "https://github.com/tssuite/template-project/issues",
+  "description": "Allow to return the root of node.js projects",
+  "homepage": "https://github.com/tssuite/project-root",
+  "bugs": "https://github.com/tssuite/project-root/issues",
   "private": false,
   "license": "MIT",
   "engines": {
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tssuite/template-project.git"
+    "url": "git+https://github.com/tssuite/project-root.git"
   },
-  "main": "dist/template-project.js",
+  "main": "dist/project-root.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
