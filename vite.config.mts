@@ -15,11 +15,11 @@ export default defineConfig({
   plugins: [dts({ include: ['src/**/*'] })],
 
   // Comment in the following files when this package should run in node.js only
-  //
-  // resolve: {
-  //   mainFields: ['module', 'jsnext:main', 'main'], // Do not run in browser
-  //   conditions: ['node', 'import'], // node-spezifische Exports
-  // },
+
+  resolve: {
+    mainFields: ['module', 'jsnext:main', 'main'], // Do not run in browser
+    conditions: ['node', 'import'], // node-spezifische Exports
+  },
 
   build: {
     copyPublicDir: false,

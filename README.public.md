@@ -8,8 +8,32 @@ found in the LICENSE file in the root of this package.
 
 # @tssuite/project-root
 
-Todo: Add description here
+`@tssuite/project-root` is a lightweight utility for reliably determining the
+root directory of your TypeScript/Node.js project. It helps with configuration,
+tooling, and scripts that need to locate the project root regardless of the
+current working directory.
 
-## Example
+Features:
 
-[src/example.ts](src/example.ts)
+- Simple API for getting the project root path
+- Zero dependencies
+- TypeScript support
+
+## Install
+
+```bash
+npm install @tssuite/project-root
+```
+
+## Usage Example
+
+```typescript
+import { projectRoot } from '@tssuite/project-root';
+
+async function main() {
+  const pr = await projectRoot();
+  console.log(pr);
+}
+
+main();
+```
