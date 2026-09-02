@@ -5,6 +5,7 @@
     "module": "NodeNext",
     "lib": ["esnext", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
+    "types": ["node"],
 
     /* Distribution */
     "rootDir": "src",
