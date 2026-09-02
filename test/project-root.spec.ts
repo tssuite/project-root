@@ -4,9 +4,9 @@
 // Use of this source code is governed by terms that can be
 // found in the LICENSE file in the root of this package.
 
-import { mkdir, rm } from 'fs/promises';
-import { tmpdir } from 'os';
-import * as path from 'path';
+import { mkdir, rm } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import * as path from 'node:path';
 import { describe, expect, it } from 'vitest';
 
 import { projectRoot } from '../src/project-root.js';
