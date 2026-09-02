@@ -1,6 +1,6 @@
 {
   "name": "@tssuite/project-root",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "Allow to return the root of node.js projects",
   "homepage": "https://github.com/tssuite/project-root",
   "bugs": "https://github.com/tssuite/project-root/issues",
